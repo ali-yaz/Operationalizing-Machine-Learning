@@ -40,7 +40,7 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 - The result is a leaderboard ranking models by performance metrics, aiding model selection.
 
 ### Registered Dataset
-
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/e7f9bec06a46f8ac7e921a40fe05fe4b6cf35035/sample_screenshots/Dataset.PNG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
