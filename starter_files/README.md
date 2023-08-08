@@ -42,6 +42,18 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 ### Registered Dataset
 ![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3a10c19344ee786f57479b9dda146154fe0794b5/sample_screenshots/Dataset.PNG)
 
+## Deploy the best model
+### Deploying the Optimal Model and Enabling Logging 
+The most effective model derived from our AutoML iteration is launched into a production environment via Azure Container Instance (ACI). Through generated endpoints, our deployed model is made accessible for interactions with external services. Additionally, I implemented authentication during deployment, generating keys for secure authentication before engaging with the deployed model.
+Following model deployment, I have the option to activate Application Insights, granting access to logs (this step is equally feasible during deployment).
+### Model Deployed and Application Insights Enabled
+Image
+## Swagger Documentation
+Swagger is a tool I utilized for constructing and documenting REST APIs. It offers a platform for sharing documentation across product managers, testers, and developers, and can also be leveraged by various tools to automate tasks related to APIs.
+Within Azure's framework, there exists a swagger.json URL that I employed to establish a web interface detailing the HTTP endpoint associated with a deployed model. I consumed the deployed model through Swagger, revealing the API's contents, as depicted in the example below:
+
+Image
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
