@@ -22,6 +22,24 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 6. **Pipeline Creation and Publication**: Utilize the Azure Python SDK and a Jupyter Notebook to create and publish a pipeline. A `config.json` file in the working directory is necessary for this process. Pipelines automate the complete cycle of model training and deployment.
 
 ## Key Steps
+
+## Authentication
+
+- Authentication involves verifying users' identities and securely granting access to resources.
+- While the course Workspace streamlined authentication, your personal Azure account requires additional steps.
+- To interact with Azure Machine Learning Studio using the `az` command, install the Azure Machine Learning Extension.
+- After installation, create a Service Principal account to manage authentication and associate it with your workspace.
+- This ensures secure access to Azure resources during machine learning projects.
+
+## Automated ML Experiment
+
+- This phase configures an Automated ML (AutoML) run to automate training multiple machine learning models.
+- Configuration includes specifying a compute cluster for model training resources.
+- Define the machine learning task type, such as classification or regression, to guide AutoML.
+- AutoML autonomously explores models and hyperparameters to identify the best performer.
+- The result is a leaderboard ranking models by performance metrics, aiding model selection.
+
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
