@@ -39,6 +39,8 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 - AutoML autonomously explores models and hyperparameters to identify the best performer.
 - The result is a leaderboard ranking models by performance metrics, aiding model selection.
 
+### Registered Dataset
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
