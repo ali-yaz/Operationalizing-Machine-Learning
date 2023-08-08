@@ -1,12 +1,9 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Operationalizing Machine Leargning Project - Udacity
 
-
-# Your Project Title Here
-
-*TODO:* Write an overview to your project.
+This project entails a comprehensive machine learning endeavor within the Microsoft Azure framework. I established a cloud-based production model for machine learning, successfully deploying and utilizing it. Employing the Bank Marketing Dataset, I trained a machine learning model by harnessing the advanced AutoML capabilities of Azure Machine Learning Studio. The next step involved deploying this model to a production environment through Azure Container Instance (ACI), subsequently accessing it via REST endpoints. Moreover, I engineered, made accessible, and employed a streamlined pipeline to automate the entire sequence of actions.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
