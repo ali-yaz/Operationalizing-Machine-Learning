@@ -5,7 +5,6 @@ This project entails a comprehensive machine learning endeavor within the Micros
 ## Architectural Diagram
 
 ![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/b453da54e39c7f0dadf01c2dd186e179d600da87/sample_screenshots/diagram.PNG)
-## Key Steps
 ## Architecture Overview
 
 The diagram above illustrates the step-by-step flow of operations. Let's dive into each phase:
@@ -22,7 +21,7 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 
 6. **Pipeline Creation and Publication**: Utilize the Azure Python SDK and a Jupyter Notebook to create and publish a pipeline. A `config.json` file in the working directory is necessary for this process. Pipelines automate the complete cycle of model training and deployment.
 
-
+## Key Steps
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
