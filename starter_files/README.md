@@ -40,7 +40,7 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 - The result is a leaderboard ranking models by performance metrics, aiding model selection.
 
 ### Registered Dataset
-![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3a10c19344ee786f57479b9dda146154fe0794b5/sample_screenshots/Dataset.PNG)
+![](sample_screenshots/Dataset.PNG)
 
 ## Deploy the best model
 ### Deploying the Optimal Model and Enabling Logging 
