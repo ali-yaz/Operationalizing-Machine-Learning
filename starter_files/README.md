@@ -41,8 +41,13 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 
 ### Registered Dataset
 ![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/a72b624f9e8bd725acfa12fc8f8a80f834955cb5/sample_screenshots/bankmarketing_dataset_registered.PNG)
-
+### Model Training Completed
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/f7b4d27bc4709c03845170b00f19a6c1b5f9a1d2/sample_screenshots/model_completed.PNG)
+### Best Model Summary
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/f7b4d27bc4709c03845170b00f19a6c1b5f9a1d2/sample_screenshots/best_model_summary.PNG)
 ## Deploy the best model
+### Model deployed successfully
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/f7b4d27bc4709c03845170b00f19a6c1b5f9a1d2/sample_screenshots/model_deployed_successfully.PNG)
 ### Deploying the Optimal Model and Enabling Logging 
 The most effective model derived from our AutoML iteration is launched into a production environment via Azure Container Instance (ACI). Through generated endpoints, our deployed model is made accessible for interactions with external services. Additionally, I implemented authentication during deployment, generating keys for secure authentication before engaging with the deployed model.
 Following model deployment, I have the option to activate Application Insights, granting access to logs (this step is equally feasible during deployment).
