@@ -52,15 +52,38 @@ The diagram above illustrates the step-by-step flow of operations. Let's dive in
 The most effective model derived from our AutoML iteration is launched into a production environment via Azure Container Instance (ACI). Through generated endpoints, our deployed model is made accessible for interactions with external services. Additionally, I implemented authentication during deployment, generating keys for secure authentication before engaging with the deployed model.
 Following model deployment, I have the option to activate Application Insights, granting access to logs (this step is equally feasible during deployment).
 ### Model Deployed and Application Insights Enabled
-Image
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/app_insight_enabled.PNG)
+### Log.py run 
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/log_py_run.PNG)
+### 
+
 ## Swagger Documentation
 Swagger is a tool I utilized for constructing and documenting REST APIs. It offers a platform for sharing documentation across product managers, testers, and developers, and can also be leveraged by various tools to automate tasks related to APIs.
-Within Azure's framework, there exists a swagger.json URL that I employed to establish a web interface detailing the HTTP endpoint associated with a deployed model. I consumed the deployed model through Swagger, revealing the API's contents, as depicted in the example below:
-
-Image
+Within Azure's framework, there exists a swagger.json URL that I employed to establish a web interface detailing the HTTP endpoint associated with a deployed model. I consumed the deployed model through Swagger, revealing the API's contents, as depicted in the screenshot below:
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/swagger_running_locally.PNG)
+## Create and publish a pipeline
+###  Create a Pipeline in the SDK
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/runwidget_1.PNG)
+### Pipeline Created Successfully
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/pipelines_created.PNG)
+### Pipeline endpoint
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/pipeline_endpoint.PNG)
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/bankmarketing_pipeline.PNG)
+### Runwidget best model
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/bankmarketing_pipeline.PNG)
+### Pipeline in Azure Studio
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/pipeline_endpoint.PNG)
+###  Create the REST endpoint
+![](https://github.com/ali-yaz/Operationalizing-Machine-Learning/blob/3411d5855f52d424f0ed0b730899d12a13a7e8ba/sample_screenshots/status_pipeline_active.PNG)
+This is the REST endpoint in Azure ML Studio, with a status of ACTIVE.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
+Link to screen recording: https://youtu.be/6yAKk9MXyZ0
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+To enhance model performance, consider the following strategies:
+
+1. Address the high data imbalance by implementing techniques that mitigate this issue, thereby enhancing model predictions.
+
+2. Replace the accuracy metric with precision, recall, or AUC (Area Under the Curve) when evaluating model performance, especially for imbalanced data scenarios, as accuracy may not be an appropriate measure.
+
+3. Explore the utilization of deep learning techniques, which can facilitate the training of multiple models and potentially result in improved model performance
